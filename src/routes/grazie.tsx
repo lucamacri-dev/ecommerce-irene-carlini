@@ -5,7 +5,7 @@ import { ShopLayout } from "@/components/shop/Layout";
 
 export const Route = createFileRoute("/grazie")({
   head: () => ({
-    meta: [{ title: "Grazie · Irene Carlini" }, { name: "robots", content: "noindex" }],
+    meta: [{ title: "Grazie · ECHOS" }, { name: "robots", content: "noindex" }],
   }),
   component: ThankYou,
 });

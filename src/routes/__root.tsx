@@ -82,13 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Irene Carlini · Black Friday" },
+      { title: "ECHOS · Black Friday" },
       {
         name: "description",
         content:
           "Aurora e Marta: scarpe con memory foam, tessuto jeans e tacco comodo. Prezzi Black Friday.",
       },
-      { property: "og:title", content: "Irene Carlini · Black Friday" },
+      { property: "og:title", content: "ECHOS · Black Friday" },
       {
         property: "og:description",
         content: "Aurora e Marta: scarpe con memory foam, tessuto jeans e tacco comodo.",

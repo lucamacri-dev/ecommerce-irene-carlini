@@ -13,7 +13,7 @@ export function ShopLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-30 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-5">
           <Link to="/" className="text-xl font-semibold tracking-[0.2em] text-brand-green">
-            IRENE CARLINI
+            ECHOS
           </Link>
           <nav className="flex items-center gap-6 text-sm">
             <Link
@@ -40,7 +40,7 @@ export function ShopLayout({ children }: { children: ReactNode }) {
       </header>
       <main className="flex-1">{children}</main>
       <footer className="bg-brand-green-deep px-5 py-10 text-center text-xs text-white/70">
-        © {new Date().getFullYear()} Irene Carlini · Tutti i diritti riservati
+        © {new Date().getFullYear()} ECHOS · Tutti i diritti riservati
       </footer>
     </div>
   );

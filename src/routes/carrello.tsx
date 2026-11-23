@@ -7,7 +7,7 @@ import { trackLandingOnce } from "@/lib/analytics";
 import { useCart } from "@/lib/cart";
 
 export const Route = createFileRoute("/carrello")({
-  head: () => ({ meta: [{ title: "Carrello · Irene Carlini" }] }),
+  head: () => ({ meta: [{ title: "Carrello · ECHOS" }] }),
   component: CartPage,
 });
 
