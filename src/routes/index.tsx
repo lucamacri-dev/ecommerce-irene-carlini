@@ -10,7 +10,7 @@ import { trackLandingOnce } from "@/lib/analytics";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ECHOS · Black Friday" },
+      { title: "Irene Carlini · Black Friday" },
       {
         name: "description",
         content:

@@ -23,7 +23,7 @@ import { getSupabase } from "@/lib/supabase";
 
 export const Route = createFileRoute("/admin")({
   head: () => ({
-    meta: [{ title: "Admin · ECHOS" }, { name: "robots", content: "noindex,nofollow" }],
+    meta: [{ title: "Admin · Irene Carlini" }, { name: "robots", content: "noindex,nofollow" }],
   }),
   component: AdminPage,
 });

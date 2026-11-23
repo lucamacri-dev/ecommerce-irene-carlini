@@ -8,7 +8,7 @@ import { useCart } from "@/lib/cart";
 import { getSupabase } from "@/lib/supabase";
 
 export const Route = createFileRoute("/checkout")({
-  head: () => ({ meta: [{ title: "Checkout · ECHOS" }] }),
+  head: () => ({ meta: [{ title: "Checkout · Irene Carlini" }] }),
   component: CheckoutPage,
 });
 
