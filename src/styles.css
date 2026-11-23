@@ -77,7 +77,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-/* ECHOS brand: palette taken from launch.echosstp.it */
+/* Brand palette (cream / green / terracotta) and Prompt font */
 :root {
   --radius: 0.5rem;
   --background: oklch(0.962 0.016 86.4);
